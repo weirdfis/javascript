@@ -9,7 +9,7 @@ function jikaa() {
 }
 function makaa() {
   var angka = 9;
-  if (var=9)console.log("sembilan")
+  if (angka===9)console.log("sembilan")
   else console.log("gatau");
 }
 jikaa()
