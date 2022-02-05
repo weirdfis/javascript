@@ -7,7 +7,11 @@ const fungsi2 = function() {
 const fungsi3 = ()=>{
   console.log("ketiga");
 }
+function mintadata(x) {
+  console.log(x);
+}
 
-fungsi1()
-fungsi2()
-fungsi3()
+fungsi1();
+fungsi2();
+fungsi3();
+mintadata();
