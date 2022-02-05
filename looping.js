@@ -17,5 +17,15 @@ function DOWHILE() {
     i++;
   } while (i<10);
 }
-FOR()
-DOWHILE()
+function infinity() {
+  for (var i = 0; i >= 0; i++) {
+    console.log(i)();
+  }
+}
+function forof() {
+  var angka = [0,1,3,5,7,9];
+  for (let x of angka) {
+    console.log(x);
+  }
+}
+forof()
