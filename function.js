@@ -7,7 +7,7 @@ const fungsi2 = function() {
 const fungsi3 = ()=>{
   console.log("ketiga");
 }
-function mintadata(x) {
+function mintadata(x=10) {
   console.log(x);
 }
 
