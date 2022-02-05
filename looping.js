@@ -10,6 +10,12 @@ function WHILE() {
     i++;
   }
 }
-
+function DOWHILE() {
+  let i = 0;
+  do {
+    console.log("nomer", i);
+    i++;
+  } while (i<10);
+}
 FOR()
-WHILE()
+DOWHILE()
