@@ -28,4 +28,14 @@ function forof() {
     console.log(x);
   }
 }
+function forin() {
+  var bio = {
+    nama: 'ilham',
+    umur: 17,
+    hobi: 'nyanyi'
+  }
+  for (let x in bio) {
+    console.log(bio[x]);
+  }
+}
 forof()
