@@ -10,8 +10,12 @@ const fungsi3 = ()=>{
 function mintadata(x=10) {
   console.log(x);
 }
-
+function isi() {
+  var cari = "isi dari data pap"
+  console.log(cari.replace("to", "from"));
+}
 fungsi1();
 fungsi2();
 fungsi3();
 mintadata();
+isi();
