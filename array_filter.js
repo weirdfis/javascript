@@ -18,3 +18,9 @@ let filtered = peoples.filter(people => {
 });
 
 console.log(filtered);
+
+let angka2 = [32, 33, 16, 40, 9, 7, 11, 2, 44, 1, 66];
+
+console.log(angka2.filter(angka => {
+  return angka > 15;
+}));
