@@ -7,7 +7,15 @@ function memanggilarray() {
 }
 
 memanggilarray()
+function arrayforeach() {
+  var aray = ['a', 'b','c']
+  aray.forEach(function (item, index, array) => {
+    console.log(item);
+    console.log(index);
+    console.log(array);
+  });
 
+}
 var data = [8,9,0];
 for (var i = 0; i < data.length; i++) {
   console.log(data[i]);
